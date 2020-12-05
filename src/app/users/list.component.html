@@ -1,0 +1,42 @@
+﻿<div class="main">
+    <h1 class="text-center font-weight-bold">TOP SPEEDRUNS</h1>
+    <div class="table-responsive">
+        <table id="speedrun" class="table table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Blancos abatidos</th>
+                    <th>Tiempo</th>
+                    <th>Puntuacion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let partida of partidas">
+                    <td>{{partida.blancos_abatidos}}</td>
+                    <th>{{partida.tiempo}}</th>
+                    <th>{{partida.puntuacion}}</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <br>
+    <h1 class="text-center font-weight-bold">TOP HIGHSCORES</h1>
+    <div class="table-responsive">
+        <table id="highscore" class="table table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Blancos abatidos</th>
+                    <th>Tiempo</th>
+                    <th>Puntuacion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let partida of partidas">
+                    <td>{{partida.blancos_abatidos}}</td>
+                    <th>{{partida.tiempo}}</th>
+                    <th>{{partida.puntuacion}}</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

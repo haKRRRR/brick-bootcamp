@@ -1,0 +1,179 @@
+/* You can add global styles to this file, and also import other style files */
+a { cursor: pointer }
+
+.app-container {
+    min-height: 320px;
+    overflow: hidden;
+}
+
+.btn-delete-user {
+    width: 40px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color:white;
+}
+
+/* HEADER */
+
+.nav-custom{
+    background:  red;
+
+}
+
+.nav-logo{
+    height: 50px;
+}
+
+/* BODY */
+
+.page-content{
+    overflow-x: hidden;
+}
+
+#intro {
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    opacity: 50%;
+    height: 100%;
+    /*background: url("../resources/carbon.jpg")no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow-x: hidden;
+}
+
+#fixed{
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    opacity: 75%;
+    height: 100%;
+    /*background: url("../resources/chessgame.jpg")no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.logo-login{
+    padding-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-height: 100px;
+}
+
+.img-main-desc{
+    height: 150px;
+}
+
+.form-container{
+    background-color: #ffffff;
+    border: 0px solid;
+    padding: 30px 30px;
+    margin-top: 90px;
+    -webkit-box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.55);
+    box-shadow: 0px 0px 35px 5px rgba(0,0,0,0.55);
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    overflow-x: hidden;
+}
+
+.form-pos{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* FOOTER */
+
+.footer{
+    margin-top: 90px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.footer-content{
+    background-color: red;
+}
+
+.subfooter{
+    padding: 10px;
+    color: white;
+    background-color: #660000e3;
+}
+
+.footer-links{
+    padding-top: 40px;
+}
+
+.footer-social{
+    padding-top: 60px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #660000e3;
+    color: white;
+}
+
+.fa-youtube {
+    background: #660000e3;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #660000e3;
+    color: white;
+}
+
+.img-footer{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 30px;
+    width: auto;
+    max-height: 75px;
+    padding-bottom: 10px;
+}
+
+.addres-text{
+    margin-right: 30px;
+    line-height: 30px;
+}
